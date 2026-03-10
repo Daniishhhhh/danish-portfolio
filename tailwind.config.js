@@ -1,15 +1,27 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/*.{js,jsx,ts,tsx}"
+  ],
   theme: {
     extend: {
-      fontFamily: { jakarta: ['"Plus Jakarta Sans"', 'sans-serif'] },
-      colors: {
-        purple: { 500: '#D946EF', 600: '#C026D3' },
-        gold: '#FBBF24',
-        pink: '#EC4899',
+      fontFamily: {
+        jakarta: ['Plus Jakarta Sans', 'sans-serif'],
+      },
+      animation: {
+        'float': 'float 6s ease-in-out infinite',
+        'glow': 'glow 2s ease-in-out infinite alternate',
       }
     },
   },
   plugins: [],
 }
+safelist: [
+'border-purple-400',
+'border-pink-400',
+'border-indigo-400',
+'border-green-400',
+'border-yellow-400'
+]
