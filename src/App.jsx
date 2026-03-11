@@ -623,7 +623,7 @@ and frontend interfaces, with strong ownership mindset and ability to ship scala
         <div className="max-w-md mx-auto space-y-6">
           {/* Email Button */}
           <a 
-            href="mailto:danishsidiq.rather@gmail.com" 
+            href="mailto:danishsidiq500@gmail.com" 
             className="group w-full flex items-center gap-4 p-8 bg-gradient-to-r from-slate-800 to-slate-900 backdrop-blur-xl rounded-3xl border border-white/10 hover:bg-purple-500/10 hover:border-purple-500/30 transition-all duration-300"
           >
             <div className="w-16 h-16 bg-gradient-to-r from-slate-700 to-slate-800 rounded-2xl flex items-center justify-center group-hover:bg-gradient-to-r group-hover:from-purple-500 group-hover:to-pink-500 transition-all duration-300 shrink-0">
