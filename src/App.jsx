@@ -5,42 +5,90 @@ function App() {
 
   const projects = [
     {
-      name: "AI Healthcare Assistant",
-      short: "RAG-based multilingual healthcare assistant reducing emergency response by 40%",
-      desc: "Engineered modular RAG-based healthcare assistant reducing emergency response time by 40% through real-time detection. Integrated multilingual voice interface supporting 5 languages, improving accessibility for 10,000+ users across rural areas.",
-      tech: ["Python", "FastAPI", "Azure OpenAI", "ChromaDB"],
-      github: "https://github.com/Daniishhhhh/healthcare-ai-assistant",
-      color: "purple"
-    },
+  name: "SWASTHYA SETU AI",
+  short: "AI-powered multilingual rural healthcare assistant with emergency detection and hospital discovery",
+  desc: `SWASTHYA SETU AI is an AI-powered multilingual healthcare assistant designed to improve healthcare accessibility for rural and semi-urban populations. The system provides symptom-based medical guidance, emergency risk detection, nearby hospital discovery, government health scheme information, and quick access to medical helplines. Built using a Retrieval-Augmented Generation (RAG) architecture with FastAPI and Azure OpenAI, the platform combines AI reasoning, location intelligence, and voice interaction to deliver safe, structured, and explainable healthcare guidance while prioritizing responsible AI guardrails.
+
+Key Highlights
+
+• AI-powered symptom triage using Retrieval-Augmented Generation (RAG)
+• Multilingual voice interaction with automatic language detection (English + Hindi)
+• Emergency detection engine identifying critical health risks and providing immediate guidance
+• Nearby hospital discovery with geolocation and Google Maps navigation
+• Government health scheme assistant with structured eligibility and benefits information
+• Confidence scoring system for transparent and explainable AI responses`,
+  tech: [
+    "Python",
+    "FastAPI",
+    "Azure OpenAI",
+    "ChromaDB",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Web Speech API",
+    "Geolocation API",
+    "Google Maps API"
+  ],
+  github: "https://github.com/Daniishhhhh/healthcare-ai-assistant",
+  color: "purple"
+},
     {
-      name: "SkyChat",
-      short: "Scalable serverless chat platform with 5K+ concurrent users",
-      desc: "Architected scalable serverless chat platform handling 5,000+ concurrent users with 99.9% uptime using AWS infrastructure. Deployed secure authentication system with AWS Cognito, decreasing unauthorized access attempts by 85%.",
-      tech: ["React.js", "AWS Cognito", "Lambda", "DynamoDB"],
-      github: "https://github.com/Daniishhhhh/skychat",
-      color: "pink"
-    },
+  name: "SkyChat",
+  short: "Cloud-based real-time chat platform built on AWS serverless architecture",
+  desc: `SkyChat is a full-stack real-time chat application built using a cloud-native serverless architecture on AWS. The platform enables authenticated users to communicate instantly through WebSockets while securely storing chat data in DynamoDB. By leveraging AWS managed services such as Cognito, API Gateway, and Lambda, the system delivers high scalability, fault tolerance, and minimal operational overhead. Combined with a responsive React frontend, SkyChat demonstrates modern cloud engineering practices for building scalable, secure, and globally accessible real-time applications.
+
+Key Highlights
+
+• Real-time messaging using WebSocket connections via AWS API Gateway
+• Serverless backend powered by AWS Lambda with no dedicated servers
+• Secure authentication and user management using AWS Cognito
+• Persistent chat message storage using Amazon DynamoDB
+• Cloud-native architecture ensuring scalability, reliability, and low maintenance
+• Responsive React-based frontend optimized for desktop and mobile devices`,
+  tech: [
+    "React.js",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "AWS Cognito",
+    "AWS API Gateway",
+    "AWS Lambda",
+    "Amazon DynamoDB",
+    "Amazon S3",
+    "CloudFront",
+    "AWS IAM"
+  ],
+  github: "https://github.com/Daniishhhhh/skychat",
+  color: "pink"
+},
     {
-      name: "AI-IPS",
-      short: "ML-powered IDS with 92% F1-score on KDD dataset",
-      desc: "Enhanced network security by building IDS model using Random Forest and ANN achieving 92% F1-score on KDD dataset. Reduced false positive rate by 35% through hyperparameter tuning and feature engineering techniques.",
-      tech: ["Python", "Scikit-learn", "TensorFlow"],
-      github: "https://github.com/Daniishhhhh/AI-IPS",
-      color: "indigo"
-    },
+  name: "AI-IPS",
+  short: "AI-IPS — Intelligent Intrusion Prevention System",
+  desc: `AI-IPS is an AI-powered Intrusion Detection and Prevention System that analyzes live network traffic to identify and mitigate malicious activity in real time. The system captures packets, generates flow-based network features, and processes them through a hybrid machine learning pipeline combining binary intrusion detection with multi-class attack classification. Predictions are translated into actionable security responses through an automated decision engine. Designed with a modular architecture and FastAPI-based integration layer, AI-IPS demonstrates how intelligent threat detection systems can enhance modern network security and adaptive cyber defense.
+
+Key Highlights
+
+• Real-time packet capture and flow-based traffic analysis
+• Hybrid ML pipeline combining binary intrusion detection and multi-class attack classification
+• Automated decision engine recommending mitigation actions (allow, alert, monitor, block)
+• Modular architecture designed for firewall, SIEM, and security platform integration`,
+  tech: ["Python", "Scikit-learn", "Scapy", "Joblib", "Pickle", "TensorFlow/Keras", "FastAPI", "Uvicorn"],
+  github: "https://github.com/Daniishhhhh/AI-IPS",
+  color: "indigo"
+},
     {
       name: "Super Mario 2D Game",
       short: "Complete 2D platformer with physics & enemy AI",
-      desc: "Complete 2D platformer game built with Unity featuring physics-based gameplay, level design, enemy AI, and smooth 60fps performance across multiple levels and power-ups.",
-      tech: ["Unity", "C#", "2D Physics"],
+      desc: "This project is a full-screen 2D platformer game, inspired by classic titles like Super Mario. It is implemented entirely in Java, leveraging the Java AWT and Swing graphics libraries for rendering sprites, maps, and animations.",
+      tech: ["Unity", "java", "2D Physics","Java AWT/Swing libraries"],
       github: "https://github.com/Daniishhhhh/super-mario-2D-game",
       color: "green"
     },
     {
       name: "Chemical Equipment Visualizer",
       short: "Interactive 3D visualization tool for chemical engineering",
-      desc: "Interactive 3D visualization tool for chemical engineering equipment with real-time parameter adjustments and AR integration capabilities for educational and industrial applications.",
-      tech: ["React", "Three.js", "WebGL"],
+      desc: "A hybrid full-stack data analytics application designed to visualize and analyze chemical equipment parameters from CSV datasets. The system combines a React web interface and a PyQt5 desktop application powered by a shared Django REST API backend. Users can upload CSV files, generate real-time charts, view summary analytics, track upload history, and export automated PDF reports. The platform demonstrates cross-platform architecture where both web and desktop clients interact with a unified backend, enabling efficient data visualization, analytics, and reporting for chemical engineering datasets.",
+      tech: ["React.js", "chart.js", "Tailwind CSS", "Python", "Django REST Framework", "PyQt5", "Matplotlib", "Pandas","SQLite",],
       github: "https://github.com/Daniishhhhh/Chemical-Equipment-Visualizer",
       color: "yellow"
     }
@@ -110,6 +158,9 @@ and frontend interfaces, with strong ownership mindset and ability to ship scala
               </div>
               <div className="px-6 py-3 bg-gradient-to-r from-indigo-500/10 to-blue-500/10 backdrop-blur-xl border border-indigo-500/30 rounded-2xl hover:bg-indigo-500/20 transition-all duration-300">
                 <span className="font-semibold text-indigo-300">Cloud Security</span>
+              </div>
+              <div className="px-6 py-3 bg-gradient-to-r from-indigo-500/10 to-blue-500/10 backdrop-blur-xl border border-indigo-500/30 rounded-2xl hover:bg-indigo-500/20 transition-all duration-300">
+                <span className="font-semibold text-indigo-300">System Design</span>
               </div>
             </div>
 
@@ -225,7 +276,7 @@ and frontend interfaces, with strong ownership mindset and ability to ship scala
         <span className="text-blue-200 text-sm">From idea to deployment</span>
       </div>
       <div className="group p-5 bg-gradient-to-br from-orange-800/70 to-yellow-800/70 backdrop-blur-xl rounded-xl border border-orange-400/40 hover:border-orange-400/60 hover:shadow-orange-500/30 transition-all duration-300">
-        <span className="font-bold text-orange-300 text-lg block mb-2">🎯 User Focused</span>
+        <span className="font-bold text-orange-300 text-lg block mb-2">🎯Product Thinking</span>
         <span className="text-orange-200 text-sm">Scalable user solutions</span>
       </div>
     </div>
@@ -297,8 +348,8 @@ and frontend interfaces, with strong ownership mindset and ability to ship scala
                 </button>
               </div>
               
-              <p className="text-xl text-slate-200 mb-8 leading-relaxed">
-                {selectedProject.desc}
+              <p className="text-xl text-slate-200 mb-8 leading-relaxed whitespace-pre-line">
+  {selectedProject.desc}
               </p>
               
               <div className="flex flex-wrap gap-3 mb-8">
@@ -340,49 +391,70 @@ and frontend interfaces, with strong ownership mindset and ability to ship scala
         </div>
       </section>
 
-      {/* 3. SKILLS SECTION - SHORTENED & ATTRACTIVE */}
-      <section id="skills" className="py-32 px-8 max-w-6xl mx-auto">
-        <div className="text-center mb-24">
-          <h2 className="text-6xl font-black bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-400 bg-clip-text text-transparent mb-6">
-            Tech Stack
-          </h2>
-        </div>
 
-        <div className="grid lg:grid-cols-3 gap-8">
-          <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-white mb-6">AI/ML + Backend</h3>
-            <div className="grid grid-cols-2 gap-3">
-              {["FastAPI", "PyTorch", "Scikit-learn", "PostgreSQL"].map(skill => (
-                <div key={skill} className="group p-4 bg-slate-800/50 backdrop-blur-xl rounded-xl border border-slate-700/50 hover:bg-purple-500/10 hover:border-purple-500/30 transition-all duration-300">
-                  <span className="font-semibold text-white">{skill}</span>
-                </div>
-              ))}
-            </div>
+      {/* 3. SKILLS SECTION - UPDATED TECH STACK */}
+<section id="skills" className="py-32 px-8 max-w-6xl mx-auto">
+  <div className="text-center mb-24">
+    <h2 className="text-6xl font-black bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-400 bg-clip-text text-transparent mb-6">
+      Tech Stack
+    </h2>
+  </div>
+
+  <div className="grid lg:grid-cols-3 gap-8">
+
+    {/* Programming Languages */}
+    <div className="space-y-4">
+      <h3 className="text-2xl font-bold text-white mb-6">Programming Languages</h3>
+      <div className="grid grid-cols-2 gap-3">
+        {["Python","Java","C","JavaScript","SQL","HTML","CSS"].map(skill => (
+          <div key={skill} className="group p-4 bg-slate-800/50 backdrop-blur-xl rounded-xl border border-slate-700/50 hover:bg-purple-500/10 hover:border-purple-500/30 transition-all duration-300">
+            <span className="font-semibold text-white">{skill}</span>
           </div>
-          
-          <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-white mb-6">Frontend + Tools</h3>
-            <div className="grid grid-cols-2 gap-3">
-              {["React", "Tailwind", "TypeScript", "Docker"].map(skill => (
-                <div key={skill} className="group p-4 bg-slate-800/50 backdrop-blur-xl rounded-xl border border-slate-700/50 hover:bg-emerald-500/10 hover:border-emerald-500/30 transition-all duration-300">
-                  <span className="font-semibold text-white">{skill}</span>
-                </div>
-              ))}
-            </div>
+        ))}
+      </div>
+    </div>
+
+    {/* Frameworks & Libraries */}
+    <div className="space-y-4">
+      <h3 className="text-2xl font-bold text-white mb-6">Frameworks & Libraries</h3>
+      <div className="grid grid-cols-2 gap-3">
+        {["FastAPI","Flask","React.js","PyTorch","TensorFlow","Scikit-learn","Tailwind CSS"].map(skill => (
+          <div key={skill} className="group p-4 bg-slate-800/50 backdrop-blur-xl rounded-xl border border-slate-700/50 hover:bg-emerald-500/10 hover:border-emerald-500/30 transition-all duration-300">
+            <span className="font-semibold text-white">{skill}</span>
           </div>
-          
-          <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-white mb-6">Cloud + Security</h3>
-            <div className="grid grid-cols-2 gap-3">
-              {["AWS", "Azure", "Firebase", "OAuth2"].map(skill => (
-                <div key={skill} className="group p-4 bg-slate-800/50 backdrop-blur-xl rounded-xl border border-slate-700/50 hover:bg-indigo-500/10 hover:border-indigo-500/30 transition-all duration-300">
-                  <span className="font-semibold text-white">{skill}</span>
-                </div>
-              ))}
-            </div>
+        ))}
+      </div>
+    </div>
+
+    {/* Tools & Technologies */}
+    <div className="space-y-4">
+      <h3 className="text-2xl font-bold text-white mb-6">Tools & Technologies</h3>
+      <div className="grid grid-cols-2 gap-3">
+        {[
+          "Docker",
+          "MongoDB",
+          "AWS Cognito",
+          "AWS Lambda",
+          "AWS DynamoDB",
+          "AWS S3",
+          "Azure OpenAI",
+          "ChromaDB",
+          "Unity",
+          "Git and GitHub",
+          "Vercel",
+          "Kubernetes"
+        ].map(skill => (
+          <div key={skill} className="group p-4 bg-slate-800/50 backdrop-blur-xl rounded-xl border border-slate-700/50 hover:bg-indigo-500/10 hover:border-indigo-500/30 transition-all duration-300">
+            <span className="font-semibold text-white">{skill}</span>
           </div>
-        </div>
-      </section>
+        ))}
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
 
       {/* 4. EXPERIENCE SECTION - FIXED VISIBILITY */}
       <section id="experience" className="py-32 px-8 max-w-4xl mx-auto">
@@ -426,7 +498,7 @@ and frontend interfaces, with strong ownership mindset and ability to ship scala
                 </div>
               </div>
               <p className="text-slate-200 leading-relaxed">
-                Built scalable microservices with Node.js + PostgreSQL. Implemented CI/CD pipelines reducing deployment time by 70%. Developed responsive React dashboards for enterprise clients.
+                worked on end-to-end data projects involving collection, cleaning, and analysis of datasets. I applied Python, Pandas, NumPy, Matplotlib, and Seaborn for EDA and visualization, and built machine learning models for predictive insights. This experience strengthened my skills in data preprocessing, feature engineering, and model evaluation, while enhancing teamwork, communication, and understanding of the complete Data Science lifecycle.
               </p>
             </div>
           </div>
