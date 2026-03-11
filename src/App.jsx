@@ -505,6 +505,110 @@ and frontend interfaces, with strong ownership mindset and ability to ship scala
         </div>
       </section>
 
+      {/* 5. CERTIFICATIONS SECTION */}
+<section id="certifications" className="py-32 px-8 max-w-6xl mx-auto">
+  <div className="text-center mb-24">
+    <h2 className="text-6xl font-black bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-400 bg-clip-text text-transparent mb-6">
+      Certifications
+    </h2>
+  </div>
+
+  <div className="grid md:grid-cols-2 gap-8">
+
+    {/* Column 1 */}
+    <div className="p-8 bg-gradient-to-br from-slate-800/80 to-purple-900/40 backdrop-blur-xl rounded-3xl border border-purple-500/30 space-y-6">
+
+      <div>
+        <h3 className="font-bold text-white text-lg">
+          IoT using Python – NPTEL (IIT Kharagpur)
+        </h3>
+        <p className="text-slate-300 text-sm">
+          Elite Certificate with 82% score
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-bold text-white text-lg">
+          Elementary Data Structures – Saylor Academy
+        </h3>
+        <p className="text-slate-300 text-sm">
+          Core foundations in data structures and algorithms
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-bold text-white text-lg">
+          Introduction to Python – Saylor Academy
+        </h3>
+        <p className="text-slate-300 text-sm">
+          Python fundamentals for scripting and application development
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-bold text-white text-lg">
+          Introduction to MongoDB – MongoDB University
+        </h3>
+        <p className="text-slate-300 text-sm">
+          NoSQL data modeling and CRUD operations
+        </p>
+      </div>
+
+    </div>
+
+    {/* Column 2 */}
+    <div className="p-8 bg-gradient-to-br from-slate-800/80 to-indigo-900/40 backdrop-blur-xl rounded-3xl border border-indigo-500/30 space-y-6">
+
+      <div>
+        <h3 className="font-bold text-white text-lg">
+          Introduction to Cyber Security – Infosys Springboard
+        </h3>
+        <p className="text-slate-300 text-sm">
+          Completed August 7, 2024
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-bold text-white text-lg">
+          Software Engineering & Agile Development – Infosys Springboard
+        </h3>
+        <p className="text-slate-300 text-sm">
+          Completed August 27, 2025
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-bold text-white text-lg">
+          Introduction to Packet Tracer – Cisco Networking Academy
+        </h3>
+        <p className="text-slate-300 text-sm">
+          Completed October 9, 2025
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-bold text-white text-lg">
+          Introduction to Internet of Things – Cisco Networking Academy
+        </h3>
+        <p className="text-slate-300 text-sm">
+          Covered IoT and AI-driven automation
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-bold text-white text-lg">
+          Data Analyst Skill Certification – OneRoadmap
+        </h3>
+        <p className="text-slate-300 text-sm">
+          Validated skills in data analysis and insights generation
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
       {/* 5. CONTACT SECTION - EMAIL BUTTON ONLY */}
       <section id="contact" className="py-32 px-8 max-w-4xl mx-auto">
         <div className="text-center mb-24">
